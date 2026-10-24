@@ -1,0 +1,19 @@
+{
+  "name": "algoforge-arena",
+  "version": "1.0.0",
+  "description": "AlgoForge Arena — Full-Stack Online Judge, DSA Platform & Admin Management Portal",
+  "type": "module",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "cd frontend && npm install && npm run build",
+    "setup": "npm install && cd frontend && npm install && npm run build",
+    "server": "node server/server.js",
+    "client": "cd frontend && npm run dev",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
